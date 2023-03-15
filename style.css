@@ -1,0 +1,87 @@
+@font-face {
+  font-family: myTimerFont;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  margin: 68px auto;
+  display: flex;
+  /* justify-content: space-around; */
+  width: 575px;
+  height: 385px;
+  text-align: center;
+  background-color: #1b244a;
+  color: #eeeeee;
+}
+
+.score-container {
+  text-align: center;
+  margin-top: 68px;
+  margin-bottom: 68px;
+}
+
+#home-container {
+  margin-left: 82px;
+}
+
+#guest-container {
+  margin-left: 100px;
+  margin-right: 82px;
+}
+
+.score-header {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  margin-bottom: 21px;
+}
+
+.score-display {
+  height: 120px;
+  width: 155px;
+  background-color: #080001;
+  border-radius: 5px;
+  margin-bottom: 26px;
+}
+
+.score-label {
+  display: block;
+  margin: 0 20px;
+  width: 117px;
+  height: 120px;
+  font-family: myTimerFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+}
+
+.point-container {
+  display: flex;
+  justify-content: space-between;
+  width: 155px;
+  height: 45px;
+}
+
+.add-pts-btn {
+  font-family: myTimerFont;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #1b244a;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  color: #9aabd8;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
